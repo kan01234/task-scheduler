@@ -11,7 +11,7 @@
 
 3. kafka queue
 - as task persistence
-- assign received task to Task scheduler consumer pull the task
+- let task scheduler consumer poll the task from queue
 
 4. task scheduler consumer
 - as task consumer, poll task from queue and store to database
