@@ -28,7 +28,12 @@
 
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
 
-2. execute scheduleing task
+2. resolve master
+
+![task-consumer-resolve-master](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-resolve-master.png)
+
+3. execute scheduleing task
+
 ![task-consumer-execute-task](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-execute-task.png)
 
 ### Implement (doing...)
