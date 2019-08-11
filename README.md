@@ -23,6 +23,11 @@
 6. task executor
 - execute the task
 
+### Running Scheduled Task In Multi Nodes
+1. application startup
+
+![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
+
 ### Implement (doing...)
 [task-scheduler-producer](https://github.com/kan01234/task-scheduler-producer)
 
