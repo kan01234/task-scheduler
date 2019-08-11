@@ -28,6 +28,9 @@
 
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
 
+2. execute scheduleing task
+![task-consumer-execute-task](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-execute-task.png)
+
 ### Implement (doing...)
 [task-scheduler-producer](https://github.com/kan01234/task-scheduler-producer)
 
