@@ -37,6 +37,7 @@ Project describle a task scheduler system, target to run each scheduled task at 
 
 ### Running Scheduled Task In Cluster
 We are going to running schedule task only on the master in cluster, so the task consumer will also have following requeirments.
+
 - master flag for each node
 - only one alive master node in cluster
 - only master node can assign or execute schedule task
@@ -47,6 +48,15 @@ We are going to running schedule task only on the master in cluster, so the task
 1. application startup
 
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
+
+i. init application
+
+ii. check alive master
+
+iii. set to master if no available master
+
+iv. save application node
+
 
 2. resolve master
 
