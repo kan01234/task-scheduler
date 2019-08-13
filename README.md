@@ -1,4 +1,5 @@
 # task-scheduler
+Project describle a task scheduler system, target to run each scheduled task at specifed time once, even in a clustered environment.
 
 ## System Architecture
 ![system architecture](https://github.com/kan01234/task-scheduler/blob/master/img/task-scheduler-system.png)
