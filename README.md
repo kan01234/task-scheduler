@@ -50,11 +50,8 @@ We are going to running schedule task only on the master in cluster, so the task
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
 
 i. init application
-
 ii. check alive master
-
 iii. set to master if no available master
-
 iv. save application node
 
 
