@@ -45,15 +45,18 @@ We are going to running schedule task only on the master in cluster, so the task
 - assume alive time to determine node is alive or not
 - resolve master node in a fixed rate, to ensure master node is available
 
+- - - -
+
 1. application startup
 
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
 
-i. init application
-ii. check alive master
-iii. set to master if no available master
-iv. save application node
+- init application
+- check alive master
+- set to master if no available master
+- save application node
 
+- - - -
 
 2. resolve master
 
