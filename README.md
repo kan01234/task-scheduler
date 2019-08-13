@@ -62,6 +62,17 @@ We are going to running schedule task only on the master in cluster, so the task
 
 ![task-consumer-resolve-master](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-resolve-master.png)
 
+assume node1 is master
+- node1, node2 send heat beat
+- node1, node2 execute resolve master
+
+assume node1 is down now
+- node2 send heat beat
+- node2 execute resolve master, but no master is alive
+- find new master and save
+
+- - - -
+
 3. execute scheduleing task
 
 ![task-consumer-execute-task](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-execute-task.png)
