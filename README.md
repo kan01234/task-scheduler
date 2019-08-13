@@ -4,6 +4,17 @@ Project describle a task scheduler system, target to run each scheduled task at 
 ## System Architecture
 ![system architecture](https://github.com/kan01234/task-scheduler/blob/master/img/task-scheduler-system.png)
 
+## Requriements
+- Task Scheduler Producer
+  - end point to create schedule task
+  - push schedule task to kafka queue
+
+- Task Scheduler Consumer
+  - poll schedule task from kafka queue
+  - save schedule task to task database
+  - fetch schedule task from task database and execute it
+  - run once only
+
 1. other service
 - other services in the system
 
