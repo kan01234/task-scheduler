@@ -77,6 +77,12 @@ assume node1 is down now
 
 ![task-consumer-execute-task](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-execute-task.png)
 
+assume node1 is master
+- node1, node2 start execute schedule task
+- node1 is master, fetch schedule task from database
+- node1 update task status, assign the schedule task to task executor
+- node2 is not master, return
+
 ### Implement (doing...)
 [task-scheduler-producer](https://github.com/kan01234/task-scheduler-producer)
 
