@@ -35,7 +35,15 @@ Project describle a task scheduler system, target to run each scheduled task at 
   - fetch schedule task from task database and execute it
   - run once only
 
-### Running Scheduled Task In Multi Nodes
+### Running Scheduled Task In Cluster
+We are going to running schedule task only on the master in cluster, so the task consumer will also have following requeirments.
+- master flag for each node
+- only one alive master node in cluster
+- only master node can assign or execute schedule task
+- node will send heart beat in a fixed rate
+- assume alive time to determine node is alive or not
+- resolve master node in a fixed rate, to ensure master node is available
+
 1. application startup
 
 ![task-consumer-appnode-init](https://github.com/kan01234/task-scheduler/blob/master/img/task-consumer-appnode-init.png)
