@@ -83,7 +83,7 @@ assume node1 is master
 - node1 update task status, assign the schedule task to task executor
 - node2 is not master, return
 
-### Implement (doing...)
+### Implement
 [task-scheduler-producer](https://github.com/kan01234/task-scheduler-producer)
 
 [task-scheduler-consumer](https://github.com/kan01234/task-scheduler-consumer)
