@@ -10,6 +10,8 @@ docker-compose up -d;
 2. add schedule Task
 [check here](https://github.com/kan01234/task-scheduler-producer/blob/master/README.md#add-schedule-task)
 
+3. check log in consumer-logs folder
+
 ## System Architecture
 ![system architecture](https://github.com/kan01234/task-scheduler/blob/master/img/task-scheduler-system.png)
 
