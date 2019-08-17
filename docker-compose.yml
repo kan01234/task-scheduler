@@ -38,6 +38,11 @@ services:
     environment:
       spring.kafka.bootstrap-servers: ts-kafka:9092
       spring.data.cassandra.contact-points: ts-cassandra
+      logging.path: /logs/consumer.log
+      logging.level.org.springframework.web: INFO
+      logging.level.com.dotterbear: INFO
+    volumes:
+      - "./consumer-logs:/logs"
     networks:
       - task-scheduler-network
 
