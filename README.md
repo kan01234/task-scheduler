@@ -1,6 +1,15 @@
 # task-scheduler
 Project describle a task scheduler system, target to run each scheduled task at specifed time once, even in a clustered environment.
 
+## Quick Start
+1. start the system
+```bash
+docker-compose up -d;
+```
+
+2. add schedule Task
+[check here](https://github.com/kan01234/task-scheduler-producer/blob/master/README.md#add-schedule-task)
+
 ## System Architecture
 ![system architecture](https://github.com/kan01234/task-scheduler/blob/master/img/task-scheduler-system.png)
 
